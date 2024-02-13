@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+Dans ce projet, nous avons créé une application avec une liste de données contenant les informations sur les joueurs, telles que leur nom, leur âge et leurs photos. Pour cela, nous avons d'abord défini les données dans un tableau ou un objet, représentant chaque joueur avec ses attributs respectifs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ensuite, nous avons utilisé la fonction map() pour itérer sur ce tableau de données et afficher chaque joueur dans un composant de carte. Pour cela, nous avons créé un composant de carte appelé PlayerCard, qui accepte des propriétés (props) telles que le nom du joueur, son âge et l'URL de sa photo.
 
-## Available Scripts
+Dans le composant PlayerCard, nous avons utilisé ces propriétés pour afficher les informations de chaque joueur de manière structurée. Par exemple, nous avons affiché le nom du joueur dans une balise h2, son âge dans une balise p, et sa photo dans une balise img.
 
-In the project directory, you can run:
+Pour transmettre les données à chaque PlayerCard, nous avons utilisé les propriétés (props). Lorsque nous avons utilisé la fonction map() pour itérer sur le tableau de données, nous avons passé les attributs de chaque joueur en tant que valeurs des props correspondantes lors de l'instanciation du composant PlayerCard.
 
-### `npm start`
+Enfin, en utilisant cette approche, chaque joueur dans la liste est représenté par une carte individuelle affichant ses informations, ce qui rend l'application plus dynamique et facile à maintenir.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
